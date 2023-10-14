@@ -1,0 +1,39 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.container{
+    max-width: 500px;
+    background-color: darkslategrey;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    padding: 50px;
+    padding-top: 90px;
+}
+h2{
+    color: white;
+}
+h1{
+    color: yellow;
+    font-weight: 700;
+    font-size: 50px;
+}
+.increment-btn{
+    background-color: blue;
+}
+.save-btn{
+    background-color: green;
+}
+.previous-count{
+    color: yellow;
+}
